@@ -304,6 +304,7 @@ main{
     justify-content: center;
     align-items: flex-start;
     background-color: #212121;
+    padding: 40px;
     width: 70%;
     height: 1000px;
     margin-bottom: 20px;
@@ -312,7 +313,6 @@ main{
 
 .textoContacto {
     width: 80%;
-    height: 20%;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
@@ -321,15 +321,16 @@ main{
 
 .textoContacto h2 {
     color: #fafafa;
-    font-size: 40px;
+    font-size: 3rem;
+    font-weight: 700;
     font-family: 'Roboto', sans-serif;
 }
 
 .textoContacto, .mediosContacto h3 {
     color: #fafafa;
-    font-size: 25px;
-    font-weight: bolder;
+    font-size: 1rem;
     font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
 
 .formularioContacto {
@@ -425,7 +426,7 @@ main{
 }
 
 .redes img {
-    width:50px;
+    width:3.5vw;
     margin: 0 15px;
 }
 
